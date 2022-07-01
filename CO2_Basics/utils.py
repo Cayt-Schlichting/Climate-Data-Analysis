@@ -71,10 +71,10 @@ def plot_mlo_seasons(m1_season,m2_season,last_full_year):
     '''
     #Show Seasonality
     plt.figure(figsize=(10,6))
-    plt.bar(range(1,13),m1_season.seas_var, color=np.where(m1_season.seas_var>0, '#0173b2', '#d55e00'),label='Average Variance')
+    plt.bar(range(1,13),m1_season.seas_var, color=np.where(m1_season.seas_var>0, '#0173b2', '#d55e00'),label='Average Monthly Variance')
     plt.plot(range(1,13),m2_season.seasonal[last_full_year],label='Statsmodel Decomposition',marker='x',color='k')
     plt.legend()
     plt.xticks(range(1,13),labels=m1_season.mn);
     plt.ylabel("CO$_2$ Variance (ppm)");
-    plt.title("Average Monthly CO$_2$ Variance",size=14);
+    plt.title("Seasonal Trends in CO$_2$ Observations",size=14);
     return None
