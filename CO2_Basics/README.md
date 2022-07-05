@@ -22,6 +22,13 @@ The goal of this notebook is to explore atmospheric CO2 readings and perform tim
 >  - How does a seasonal decomposition with statsmodel compare with other methods of pulling the seasonal cycle?
 >  - Is there a trend in atmospheric CO$_2$ levels?
 
+### Discoveries
+> - The last 40 years of atmospheric CO$_2$ readings show a clear upward trend
+> - There is a distinct seasonal pattern in the CO$_2$ readings, with a peak at the end of Spring and a trough in the Fall.  Annual readings can vary by 6 ppm
+> - Modeling the time series, I was able to forecast 10 years with an rmse of 4 ppm.  Given that the error grew the farther the data was projected out, I extrapolated an error rate to be used on the future dataset.
+> - Forecasting 15 years into the future, my model predicts that Earth will reach over 450 ppm by 2037.
+
+---
 ### Project Plan 
 
 - [ ] **Acquire** data from the Scripps CO$_2$ Program. 
@@ -37,15 +44,7 @@ The goal of this notebook is to explore atmospheric CO2 readings and perform tim
    - [ ] Forecast future values for atmospheric CO$_2$
 - [ ] Create **Final Report** notebook with a curtailed version of the above steps.
 - [ ] Create and review README. 
----
 
-**Project Goal:**
-
-**Discoveries**
-> - The last 40 years of atmospheric CO$_2$ readings show a clear upward trend
-> - There is a distinct seasonal pattern in the CO$_2$ readings, with a peak at the end of Spring and a trough in the Fall.  Annual readings can vary by 6 ppm
-> - Modeling the time series, I was able to forecast 10 years with an rmse of 4 ppm.  Given that the error grew the farther the data was projected out, I extrapolated an error rate to be used on the future dataset.
-> - Forecasting 15 years into the future, my model predicts that Earth will reach over 450 ppm by 2037.
 
 <hr style="background-color:silver;height:3px;" />
 
