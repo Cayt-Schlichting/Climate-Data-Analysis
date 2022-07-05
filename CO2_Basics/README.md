@@ -12,8 +12,8 @@ The goal of this notebook is to explore atmospheric CO2 readings and perform tim
 > - A final report notebook
 > - Python modules for automation and to facilitate project reproduction
 > - Notebooks that show:
->  - Data acquisition and preparation 
->  - exploratory analysis, model creation, refinement and evaluation
+>   - Data acquisition and preparation 
+>   - exploratory analysis, model creation, refinement and evaluation
 
 ### Initial questions on the data
 
