@@ -6,7 +6,14 @@
 
 ## Project Summary
 <hr style="background-color:silver;height:3px;" />
-The goal of this notebook is to explore atmospheric CO2 readings and perform time series forcasting to predict CO2 levels in the near future.
+The goal of this notebook is to explore atmospheric CO$_2$ readings and perform time series forcasting to predict CO2 levels in the near future. I will be using CO$_2$ readings from the Mauna Lao Observatory in Hawaii, which has the longest, directly-measured record of atmospheric CO$_2$ readings.
+
+### Background
+
+**Carbon Dioxide (CO$_2$)** is a naturally occuring gas that exists in the earth's atmosphere.  Its concentration in the atmosphere is measured in "parts per million" or ppm.  There are many natural processes through which carbon dioxide enters and leaves the atmosphere.  Some common processes are through the breathing of animals and photosynthesis from plant life.  Carbon dioxide is an important part of our Earth's system as it is one of a subset of gases in our atmosphere that block outgoing heat - in the form of radiation.  This essentially bounces back heat that would normally radiate into space, creating a **greenhouse effect** that makes the Earth warm enough for us to live.
+
+However, this is one of the cases where there can be **too much of a good thing**. As CO$_2$ is added to the atmosphere, the greenhouse effect increases, causing the average surface temperature of the earth to increase.  The sharp increase in CO$_2$ levels over the past century have been predominantly caused by humans.  In particular, our use of fossil fuels takes carbon that was stored deep in the earth's crust and releases it in the form of CO$_2$.   Reducing our CO$_2$ emissions (along with other greenhouse gas emissions) is crucial to preventing **climate degradation** - more commonly referred to as climate change or global warming.  
+
 
 ### Project Deliverables
 > - A final report notebook
@@ -58,6 +65,7 @@ The goal of this notebook is to explore atmospheric CO2 readings and perform tim
 > - Clone the repository or download all files into your working directory
 > - Run the Final_Report notebook or explore the other notebooks for greater insight into the project.
 
+
 ---
 
 ### Project Plan 
@@ -78,7 +86,7 @@ The goal of this notebook is to explore atmospheric CO2 readings and perform tim
         <li>Forecast future values for atmospheric CO<sub>2</sub></li>
     </ul>
     </li>
-    <li>Create **Final Report** notebook with a curtailed version of the above steps.</li>
+    <li>Create <b>Final Report</b> notebook with a curtailed version of the above steps.</li>
     <li>Create and review README. </li>
     
   </ul>
