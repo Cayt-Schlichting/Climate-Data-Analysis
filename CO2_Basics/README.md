@@ -60,19 +60,26 @@ The goal of this notebook is to explore atmospheric CO2 readings and perform tim
 
 ---
 
+### Project Plan 
+
 <details>
-  <summary><i>### Project Plan </i></summary>
-- [ ] **Acquire** data from the Scripps CO$_2$ Program. 
-- [ ] Clean and **prepare** data for the exploration. 
-- [ ] Create utils.py to store functions I created to automate the cleaning and preparation process. 
-- [ ] Split train and test subsets for exploration and modeling.
-- [ ] **Explore** the data through visualizations.
-    - [ ] Document findings and takeaways.
-- [ ] Perform **modeling**:
-   - [ ] Identify model evaluation criteria
-   - [ ] Create at least three different models.
-   - [ ] Evaluate models on test subset.
-   - [ ] Forecast future values for atmospheric CO$_2$
-- [ ] Create **Final Report** notebook with a curtailed version of the above steps.
-- [ ] Create and review README. 
+  <summary><i>Click to expand</i></summary>
+  <ul>
+    <li><b>Acquire</b> data from the Scripps CO<sub>_2</sub> Program.</li>
+    <li>Clean and <b>prepare</b>data for the exploration. </li>
+    <li>Create utils.py to store functions I created to automate the cleaning and preparation process.</li>
+    <li>Split train and test subsets for exploration and modeling.</li>
+    <li><b>Explore</b> the data through visualizations; Document findings and takeaways.</li>
+    <li>Perform <b>modeling</b>:
+    <ul>
+        <li>Identify model evaluation criteria</li>
+        <li>Create at least three different models.</li>
+        <li>Evaluate models on test subset.</li>
+        <li>Forecast future values for atmospheric CO<sub>2</sub></li>
+    </ul>
+    </li>
+    <li>Create **Final Report** notebook with a curtailed version of the above steps.</li>
+    <li>Create and review README. </li>
+    
+  </ul>
 </details
