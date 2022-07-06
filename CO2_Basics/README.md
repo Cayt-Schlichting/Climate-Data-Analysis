@@ -28,24 +28,6 @@ The goal of this notebook is to explore atmospheric CO2 readings and perform tim
 > - Modeling the time series, I was able to forecast 10 years with an rmse of 4 ppm.  Given that the error grew the farther the data was projected out, I extrapolated an error rate to be used on the future dataset.
 > - Forecasting 15 years into the future, my model predicts that Earth will reach over 450 ppm by 2037.
 
----
-### Project Plan 
-
-- [ ] **Acquire** data from the Scripps CO$_2$ Program. 
-- [ ] Clean and **prepare** data for the exploration. 
-- [ ] Create utils.py to store functions I created to automate the cleaning and preparation process. 
-- [ ] Split train and test subsets for exploration and modeling.
-- [ ] **Explore** the data through visualizations.
-    - [ ] Document findings and takeaways.
-- [ ] Perform **modeling**:
-   - [ ] Identify model evaluation criteria
-   - [ ] Create at least three different models.
-   - [ ] Evaluate models on test subset.
-   - [ ] Forecast future values for atmospheric CO$_2$
-- [ ] Create **Final Report** notebook with a curtailed version of the above steps.
-- [ ] Create and review README. 
-
-
 <hr style="background-color:silver;height:3px;" />
 
 ## Data Dictionary
@@ -53,7 +35,7 @@ The goal of this notebook is to explore atmospheric CO2 readings and perform tim
 
 |Variable|Definition|
 |:-------|:----------|
-| co2 | Atmospheric CO<sub>_2</sub> levels as recorded at the Mauna Loa Observatory and provided by the [Scripps CO$_2$ Program](https://scrippsco2.ucsd.edu/data/atmospheric_co2/mlo.html).|
+| co2 | Atmospheric CO$_2$ levels as recorded at the Mauna Loa Observatory and provided by the [Scripps CO2 Program](https://scrippsco2.ucsd.edu/data/atmospheric_co2/mlo.html).|
 |mn|Month: either in '01,02,03' or 'Jan,Feb,Mar' format|
 |yr|Year: YYYY format|
 
@@ -76,3 +58,21 @@ The goal of this notebook is to explore atmospheric CO2 readings and perform tim
 > - Clone the repository or download all files into your working directory
 > - Run the Final_Report notebook or explore the other notebooks for greater insight into the project.
 
+---
+
+<details>
+  <summary><i>### Project Plan </i></summary>
+- [ ] **Acquire** data from the Scripps CO$_2$ Program. 
+- [ ] Clean and **prepare** data for the exploration. 
+- [ ] Create utils.py to store functions I created to automate the cleaning and preparation process. 
+- [ ] Split train and test subsets for exploration and modeling.
+- [ ] **Explore** the data through visualizations.
+    - [ ] Document findings and takeaways.
+- [ ] Perform **modeling**:
+   - [ ] Identify model evaluation criteria
+   - [ ] Create at least three different models.
+   - [ ] Evaluate models on test subset.
+   - [ ] Forecast future values for atmospheric CO$_2$
+- [ ] Create **Final Report** notebook with a curtailed version of the above steps.
+- [ ] Create and review README. 
+</details
