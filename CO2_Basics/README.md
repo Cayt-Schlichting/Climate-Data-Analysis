@@ -51,9 +51,11 @@ The goal of this notebook is to explore atmospheric CO2 readings and perform tim
 ## Data Dictionary
 <hr style="background-color:silver;height:3px;" />
 
-|Target|Definition|
+|Variable|Definition|
 |:-------|:----------|
-| co2 | Atmospheric CO$_2$ levels as recorded at the Mauna Loa Observatory and provided by the [Scripps CO$_2$ Program](https://scrippsco2.ucsd.edu/data/atmospheric_co2/mlo.html).|
+| co2 | Atmospheric CO<sub>_2</sub> levels as recorded at the Mauna Loa Observatory and provided by the [Scripps CO$_2$ Program](https://scrippsco2.ucsd.edu/data/atmospheric_co2/mlo.html).|
+|mn|Month: either in '01,02,03' or 'Jan,Feb,Mar' format|
+|yr|Year: YYYY format|
 
 <hr style="background-color:silver;height:3px;" />
 
