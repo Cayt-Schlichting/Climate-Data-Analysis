@@ -6,7 +6,7 @@ The goal of this repo is to explore different pieces of climate data in order to
 
 ## CO$_2$ Basics
 
-In this notebook you can find some exploration of atmospheric CO$_2$ readings including an investigation of the seasonal component along with the underlying linear trend.  The notebook concludes with a time series analysis that forecasts atmospheric CO$_2$ levels 15 years into the future [2022 to 2037].
+In this notebook you can find some exploration of atmospheric CO$_2$ readings including an investigation of the seasonal component along with the underlying linear trend.  The notebook concludes with a time series analysis that forecasts atmospheric CO$_2$ levels 15 years into the future [2022 to 2037].  [Check it out](https://github.com/Cayt-Schlichting/Climate-Data-Analysis/tree/main/CO2_Basics)
 
 
 ## Future Projects
