@@ -8,7 +8,8 @@
 <hr style="background-color:silver;height:3px;" />
 The goal of this notebook is to explore atmospheric CO$_2$ readings and perform time series forcasting to predict CO2 levels in the near future. I will be using CO$_2$ readings from the Mauna Lao Observatory in Hawaii, which has the longest, directly-measured record of atmospheric CO$_2$ readings.
 
-I encourage reading the rest of this - especially if you plan to run the code yourself!  If you're just looking for the highlights, feel free to [jump right in to the report](https://github.com/Cayt-Schlichting/Climate-Data-Analysis/blob/main/CO2_Basics/Final_Report.ipynb).
+
+I encourage reading the rest of this - especially if you plan to run the code yourself!  However, if you're just looking for the highlights, feel free to [jump right in to the report](https://github.com/Cayt-Schlichting/Climate-Data-Analysis/blob/main/CO2_Basics/Final_Report.ipynb).
 
 
 ### Background
