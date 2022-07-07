@@ -8,6 +8,9 @@
 <hr style="background-color:silver;height:3px;" />
 The goal of this notebook is to explore atmospheric CO$_2$ readings and perform time series forcasting to predict CO2 levels in the near future. I will be using CO$_2$ readings from the Mauna Lao Observatory in Hawaii, which has the longest, directly-measured record of atmospheric CO$_2$ readings.
 
+I encourage reading the rest of this - especially if you plan to run the code yourself!  If you're just looking for the highlights, feel free to [jump right in to the report](https://github.com/Cayt-Schlichting/Climate-Data-Analysis/blob/main/CO2_Basics/Final_Report.ipynb).
+
+
 ### Background
 
 **Carbon Dioxide (CO$_2$)** is a naturally occuring gas that exists in the earth's atmosphere.  Its concentration in the atmosphere is measured in "parts per million" or ppm.  There are many natural processes through which carbon dioxide enters and leaves the atmosphere.  Some common processes are through the breathing of animals and photosynthesis from plant life.  Carbon dioxide is an important part of our Earth's system as it is one of a subset of gases in our atmosphere that block outgoing heat - in the form of radiation.  This essentially bounces back heat that would normally radiate into space, creating a **greenhouse effect** that makes the Earth warm enough for us to live.
